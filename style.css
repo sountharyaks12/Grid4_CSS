@@ -1,0 +1,484 @@
+.whole{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: black;
+    height: 90vh;
+    gap: 10px;
+    padding: 5px;
+}
+.one{
+    display: grid;
+    padding: 10px;
+    background-color: darkslategrey;
+    gap: 10px;
+}
+.in-1{
+    display: grid;
+    grid-column: 1/2;
+    background-color: coral;
+}
+.in-2{
+    display: grid;
+    grid-column: 2/3;
+    background-color: orangered;
+}
+.in-3{
+    display: grid;
+    grid-column: 3/4;
+    background-color: orange;
+}
+.in-4{
+    display: grid;
+    grid-row: 2/3;
+    background-color: darkcyan;
+}
+.in-5{
+    display: grid;
+    grid-column: 2/3;
+    background-color: lightskyblue;
+}
+.in-6{
+    display: grid;
+    grid-column: 3/4;
+    background-color: aquamarine;
+}
+.two{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+.item1{
+    display: grid;
+    grid-column: 1/3;
+    background-color: chocolate;
+}
+.item2{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background-color: orangered;
+}
+.item3{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: lightseagreen;
+}
+.item4{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: aquamarine;
+}
+.three{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+.box1{
+    display: grid;
+    grid-column: 1/4;
+    background-color:coral;
+}
+.box2{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: lightseagreen;
+}
+.box3{
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: orangered;
+}
+.box4{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 3;
+    background-color: lightsteelblue;
+}
+.row21{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto;
+    background-color: darkslategrey;
+    gap: 10px;
+    padding: 10px;
+}
+.b1{
+    display: grid;
+    grid-column: 1/4;
+    background-color: coral;
+}
+.b2{
+    display: grid;
+    grid-column: 4/8;
+    background-color:orangered ;
+}
+.b3{
+    display: grid;
+    grid-column: 1/3;
+    background-color:lightseagreen;
+}
+.b4{
+    display: grid;
+    grid-column: 3/8;
+    background-color: lightsteelblue;
+}
+.b5{
+    display: grid;
+    grid-column: 1/8;
+    background-color:coral ;
+}
+.row22{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: darkslategrey;
+    padding: 10px;
+    gap: 10px;
+}
+.mini-1{
+    display: grid;
+    grid-column: 1;
+    background-color:lightseagreen ;
+}
+.mini-2{
+    display: grid;
+    grid-column: 2;
+    background-color: coral;
+}
+.mini-3{
+    display: grid;
+    grid-column: 3;
+    background-color: lightseagreen;
+}
+.mini-4{
+    display: grid;
+    grid-column: 4;
+    background-color: orangered;
+}
+.mini-5{
+    display: grid;
+    grid-column: 5;
+    background-color: aqua;
+}
+.mini-6{
+    display: grid;
+    grid-column: 6;
+    background-color: coral;
+}
+.mini-7{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: coral;
+}
+.mini-8{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: lightseagreen;
+}
+.mini-9{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: coral;
+}
+.mini-10{
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;
+    background-color: aquamarine;
+}
+.mini-11{
+    display:grid;
+    grid-column: 5;
+    grid-row: 2;
+    background-color: coral;
+}
+.mini-12{
+    display: grid;
+    grid-column: 6;
+    grid-row: 2;
+    background-color: orangered;
+}
+.mini-13{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: lightseagreen;
+}
+.mini-14{
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    background-color: orangered;
+}
+.mini-15{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    background-color: aquamarine;
+}
+.mini-16{
+    display: grid;
+    grid-column: 4;
+    grid-row: 3;
+    background-color: coral;
+}
+.mini-17{
+    display: grid;
+    grid-column: 5;
+    grid-row: 3;
+    background-color: lightseagreen;
+}
+.mini-18{
+    display: grid;
+    grid-column: 6;
+    grid-row: 3;
+    background-color: aquamarine;
+}
+.row23{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    background-color: darkslategrey;
+}
+.contbox-1{
+    display: grid;
+    grid-column: 1/3;
+    background-color: orangered;
+}
+.contbox-2{
+    display: grid;
+    grid-column: 3/4;
+    background-color: lightseagreen;
+}
+.contbox-3{
+    display: grid;
+    grid-column: 4/5;
+    background-color: coral;
+}
+.contbox-4{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2;
+    background-color: coral;
+}
+.contbox-5{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2;
+    background-color: lightseagreen;
+}
+.contbox-6{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2;
+    background-color: lightseagreen;
+}
+.contbox-7{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 3/5;
+    background-color: orangered;
+}
+.contbox-8{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3;
+    background-color: coral;
+}
+.contbox-9{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3;
+    background-color: orangered;
+}
+.contbox-10{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 4;
+    background-color: lightseagreen;
+}
+.contbox-11{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 5;
+    background-color: aquamarine;
+}
+.contbox-12{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 5;
+    background-color: coral;
+}
+.row31{
+    display: grid;
+    grid-column: auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+.content-1{
+    display: grid;
+    grid-column: 1/3;
+    background-color: coral;
+}
+.content-2{
+    display: grid;
+    grid-column: 3/5;
+    background-color: aquamarine;
+}
+.content-3{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-color: orangered;
+}
+.content-4{
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 2/4;
+    padding: 10px;
+    background-color: lightseagreen;
+}
+.content-5{
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 2;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+.content-6{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+.content-7{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+.row32{
+    display: grid;
+    grid-column: auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+.cont-1{
+    display: grid;
+    grid-column: 1/2;
+    background-color: orangered;
+}
+.cont-2{
+  display: grid;
+  grid-column: 2/3;
+  background-color: coral;
+}
+.cont-3{
+    display: grid;
+    grid-column: 3/4;
+    background-color: lightseagreen;
+}
+.cont-4{
+    display: grid;
+    grid-column: 4/5;
+    background-color: aquamarine;
+}
+.cont-5{
+    display: grid;
+    grid-column: 5/6;
+    background-color: lightseagreen;
+}
+.cont-6{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2;
+    background-color: coral;
+}
+.cont-7{
+    display: grid;
+    grid-column: 2/3;
+    background-color: orangered;
+    grid-row: 2;
+}
+.cont-8{
+    display: grid;
+    grid-column: 3/6;
+    grid-row: 2;
+    background-color: coral;
+}
+.cont-9{
+    display: grid;
+    grid-column: 1/6;
+    grid-row: 3;
+    background-color: aquamarine;
+}
+.row33{
+    display: grid;
+    grid-column: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+.last-1{
+    display: grid;
+    grid-column: 1/5;
+    background-color: coral;
+}
+.last-2{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-color: lightseagreen;
+}
+.last-3{
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 2;
+    background-color: aquamarine;
+}
+.last-4{
+    display: grid;
+    grid-column:3/4 ;
+    grid-row: 3;
+    background-color: orangered;
+}
+.last-5{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3;
+    background-color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
